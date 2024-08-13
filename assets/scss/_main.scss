@@ -1,0 +1,44 @@
+.container {
+   
+    &__img {
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.header {
+
+    &__title {
+        font-size: $small-title;
+        margin-bottom: 1.875rem;
+    }
+
+    &__description {
+        margin-bottom: 2.125rem;
+    }
+}
+
+.card {
+
+    padding: 1.75rem;
+    background-color: $rose-50;
+    border-radius: 1.5rem;
+
+    &__title {
+        font-size: $title-2;
+        color: $rose-800;
+        margin-bottom: 1.375rem;
+    }
+
+    &__list {
+        padding: 0 1.5rem;
+    }
+
+    &__item {
+        font-weight: $stone-600;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+}
