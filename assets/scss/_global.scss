@@ -8,10 +8,21 @@
     src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'outfit';
     margin: 0;
     padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $stone-100;
 }
 
 h1, h2 {
@@ -31,11 +42,6 @@ p {
 
 hr {
     border: 1px solid $stone-150;
-}
-
-.mr-x {
-    margin-left: 2.125rem;
-    margin-right: 2.125rem;
 }
 
 .mb-30 {

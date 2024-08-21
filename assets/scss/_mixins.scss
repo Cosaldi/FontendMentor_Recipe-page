@@ -1,0 +1,7 @@
+$screen-up: ("tablet": "40em", "desktop": "64em");
+
+@mixin breakpoints-up($size) {
+    @media (min-width: map-get($screen-up, $size)) {
+        @content
+    }
+}
